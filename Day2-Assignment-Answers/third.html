@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Answer</title>
+</head>
+<body>
+
+    <h1>Program to search for an element in array of strings</h1>
+
+    <script>
+        let str = ["Java", "Python", "Javascript", "Django", "Angular", "Nodejs"];
+        let val = prompt("Enter Element name :");
+        
+        // Using array function
+        console.log(str.includes(val))
+        
+        // Using if statement
+        if (str.includes(val)) {
+            console.log(val);
+        }
+        else {
+            console.log("Element not found!!!")
+        }
+
+        // for (let j=0; j<str.length; j++) {
+        //     if (str[j].match(val)) {
+        //         console.log(val)
+        //     }
+        // }
+    </script>
+</body>
+</html>
